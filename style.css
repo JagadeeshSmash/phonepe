@@ -1,0 +1,313 @@
+/*importing icons from bootstrap*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.headerfull{
+    height: auto;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow:0px 1px 10px grey;
+}
+nav .navbrand{
+    width: 200px;
+}
+nav img{
+    width: 70%;
+    height: auto;
+}
+nav .nav-item{
+    padding:0 8px;
+    color:black;
+    font-weight: 500;
+}
+/*banner*/
+.carousel-item img{
+    height: 450px;
+    position: relative;
+}
+.bannertext{
+    position: absolute;
+    top: 0;
+    padding:100px 180px;
+    color:#5F1F9C;
+}
+.freeh{
+    font-size: 55px;
+    font-weight: 500;
+}
+.bannertext span{
+    font-size: 45px;
+    color:#C7BED8;
+}
+.bannertext button{
+    width:200px;
+    height: 45px;
+    background-color: #5F1F9C;
+    color: white;
+    border: 0;
+    font-size: 17px;
+    border-radius:30px;
+    margin-top:10px;
+    font-weight: 500;
+}
+/*cards*/
+.cards img{
+    height: 250px;
+}
+.cards i{
+    padding-left: 200px;
+}
+.card{
+    transition-duration: 0.5s;
+}
+.card:hover{
+    object-fit: contain !important;
+    box-shadow: 1px 1px 10px grey;
+}
+/*simple fast and secure*/
+.simplegif{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.simple h1{
+    color:#361374;
+    padding-bottom: 20px;
+}
+.simple p{
+    padding-bottom: 20px;
+    border-bottom:1px solid rgb(213, 208, 208);
+}
+
+/*karteja*/
+.karteja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.karteja .img1{
+    width:50%;
+}
+.karteja img{
+    width:15%;
+}
+/*cards2*/
+.cardsi{
+    transform: translateY(10px);
+    transition-duration: 0.40s;
+}
+.cardsi img{
+    object-fit: contain;
+    width:auto;
+    height: auto;
+    border-radius: 5px;
+
+}
+.cardsi:hover,
+.cardsi img:hover{
+    transform: scale(1.1);
+}
+/*watchall videos*/
+.watchall{
+    text-align: center;
+}
+.watchall button{
+    width: 250px;
+    height: 40px;
+    background-color: transparent;
+    color: #967EDD;
+    border: 1px solid #967EDD;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+}
+.watchall button:hover{
+    background-color: #9d82f0;
+    color: white;
+}
+.watchall p{
+    padding: 0 100px 0 100px;
+}
+.watchall h5{
+    color: #967EDD;
+}
+/*your money safe and secure*/
+.yourmain{
+    width: 100%;
+    height: auto;
+    background-color: #967EDD;
+    border-radius: 40px;
+    position: relative;;
+}
+.moneyimg img{
+    width: 100%;
+    height: auto;
+    border-bottom-right-radius: 40px;
+}
+.moneytext{
+    position: absolute;
+    top: 0;
+    padding: 80px 80px 0 80px;
+    color: white;
+}
+.moneytext img{
+    width: 45%;
+}
+.pcilogo img{
+    width: 22%;
+    padding-top: 40px;
+}
+.moneytext h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.moneytext p{
+    font-size: 18px;
+}
+/*at 4+ crore*/
+.at4crore{
+    height: auto;
+    text-align: center;
+    background-color: rgba(224, 217, 244, 0.5);
+}
+.at4crore h1{
+    color: #361968;
+    font-weight: 700;
+}
+.at4crore button{
+    width: 250px;
+    height: 55px;
+    background-color: #07C3DE;
+    border: #07C3DE;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.at4crore i{
+    padding-left: 50px;
+}
+.at4crore .imgweb{
+    width: 100%;
+    transition-duration: 1s;
+}
+.at4crore .imgmob{
+    display: none;
+}
+.at4crore img:hover{
+    transform: translate(10px);
+}
+/*overall sales*/
+.sales img{
+    width: 100%;
+}
+.salesimg{
+    position: relative;
+}
+.sales .frontimg{
+    position: absolute;
+    top: 0;
+    transition-duration: 0.50s;
+}
+.sales .frontimg:hover{
+    transform: translate(5px);
+}
+.saletext{
+    padding:0 100px 100px 100px;
+}
+.saletext h1{
+    color: #361968;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.saletext p{
+    padding-bottom: 10px;
+}
+.saletext h6, h4{
+    padding-bottom: 15px;
+}
+.saletext h5{
+    color: #6739B7;
+}
+.saletext p{
+    border-bottom: 1px solid rgb(200, 184, 184);
+    padding-bottom: 30px;
+}
+/*trusted by over*/
+.trustedbg{
+    width: 100%;
+    height:500px;
+    background-image: url("Assets/stats-desktop.png");
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+    padding-top: 50px;
+    color: white;
+}
+.trustedbg p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    color: #cbc1e8;
+}
+.trustedbg h2{
+    font-size: 45px;
+    padding: 0;
+}
+.trustedbg .trustcol{
+    text-align: center;
+}
+.trustedbg h3{
+    color:#cbc1e8;
+}
+.trustedbg button{
+    width: 200px;
+    height: 45px;
+    border: 2px solid lightskyblue;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+
+}
+/*footer*/
+footer .flogo{
+    width: 100%;
+}
+footer li{
+    list-style: none;
+    line-height: 30px;
+}
+footer ul{
+    padding: 0;
+}
+footer a{
+    text-decoration: none;
+    color:black ;
+    font-size: 14px;
+    transition-duration: 0.05s;
+}
+footer .aheader{
+    font-size: 17px;
+}
+footer a:hover{
+    color: #6739B7;
+}
+footer button{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+footer button a{
+    font-size:20px;
+}
+footer .sisa{
+    width: 100%;
+}
+footer .socialmedia{
+    text-align: end;
+}
+footer .socialmedia i{
+    font-size: 25px;
+    margin: 5px;
+}

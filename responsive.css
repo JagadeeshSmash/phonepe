@@ -1,0 +1,473 @@
+@media only screen and (max-width: 426px) {
+    /*banner*/
+    .bannertext{
+        padding:80px 10px 0 20px;
+    }
+    .bannertext span{
+        font-size: 30px;
+    }
+    /*cards*/
+    .cardb{
+        padding-bottom: 30px;
+    }
+    /*simple fast and secure*/
+    .simplegif{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction:column-reverse;
+    }
+
+    /*cards2*/
+    .cardsi img{
+        width:10px;
+        height: auto;
+    }
+    /*watch all videos*/
+    .watchall p{
+        padding: 0 50px 0 50px;
+    }
+    /*your money safe and secure*/
+    .yourmain{
+        height: 450px;
+        box-shadow: 1px 1px 10px #7759e3;
+    }
+    .moneyimg img{
+        height: 450px;
+        border-top-left-radius:40px;
+        border-bottom-left-radius:40px;
+    }
+    .moneytext{
+        padding: 30px;
+    }
+    .moneytext img{
+        width: 35%;
+    }
+    .securelogo{
+        text-align: center;
+    }
+    .moneytext h1{
+        font-size: 31px;
+    }
+    .moneytext p{
+        font-size: 18px;
+        text-align: justify;
+        padding: 20px;
+    }.pcilogo img{
+        padding: 10px 0 0 30px;
+    }
+    /*at 4+ crores*/
+    .at4crore .imgweb{
+        display: none;
+    }.at4crore .imgmob{
+        display: block;
+        width: 100%;
+        padding-top: 20px;
+    }
+    /*overall sales*/
+    .saletext{
+        padding: 50px;
+    }
+    /*trusted by over*/
+    .trustedbg{
+        height:600px;
+        padding: 60px;
+        text-align: start;
+    }
+    
+    .trustedbg p, h2, h3{
+        font-size: 20px;
+        text-align: start;
+    }
+    .trustedbg .trustcol{
+        margin-bottom: 20px;
+    }
+    /*footer*/
+    footer .flogo{
+        display: none;       
+    }   
+    footer ul{
+        padding-bottom: 20px;
+    }
+    footer button{
+        margin-bottom: 30px;
+    }
+    footer .sisa{
+        display: none;
+    }
+    footer .socialmedia{
+        padding-bottom: 10px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 427px) and (max-width: 576px) {
+    /*banner*/
+    .bannertext{
+        padding:80px 10px 0 20px;
+    }
+    /*cards*/
+    .cardb{
+        width: 500px;
+        padding-bottom: 30px;
+    }
+    /*simple fast and secure*/
+    .simplec{
+        flex-direction: column-reverse;
+    }
+    /*watch all videos*/
+    .watchall p{
+        padding: 0 65px 0 65px;
+    }
+    /*your money safe and secure*/
+    .yourmain{
+        height: 450px;
+        box-shadow: 1px 1px 10px #7759e3;
+    }
+    .moneyimg img{
+        height: 450px;
+        border-top-left-radius:40px;
+        border-bottom-left-radius:40px;
+    }
+    .moneytext{
+        padding: 30px;
+    }
+    .moneytext img{
+        width: 35%;
+    }
+    .securelogo{
+        text-align: center;
+    }
+    .moneytext h1{
+        font-size: 31px;
+    }
+    .moneytext p{
+        font-size: 18px;
+        text-align: justify;
+        padding: 20px;
+    }.pcilogo img{
+        padding: 10px 0 0 30px;
+    }    /*at 4+ crores*/
+    .at4crore .imgweb{
+        display: none;
+    }.at4crore .imgmob{
+        display: block;
+        width: 100%;
+        padding-top: 20px;
+    }    
+    /*trusted by over*/
+    .trustedbg{
+        height:600px;
+        padding: 60px;
+        text-align: start;
+    }
+    
+    .trustedbg p, h2, h3{
+        font-size: 20px;
+        text-align: start;
+    }
+    .trustedbg .trustcol{
+        margin-bottom: 20px;
+    }
+    /*footer*/
+    footer .flogo{
+        display: none;       
+    }   
+    footer ul{
+        padding-bottom: 20px;
+    }
+    footer button{
+        margin-bottom: 30px;
+    }
+    footer .sisa{
+        display: none;
+    }
+    footer .socialmedia{
+        padding-bottom: 10px;
+    }
+
+
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    /*banner*/
+    .bannertext{
+        padding:80px 50px 0 60px;
+    }
+    /*cards*/
+    .cardb{
+        width: 500px;
+        padding-bottom: 30px;
+    }
+    .display768c{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        /*watch all videos*/
+    .watchall p{
+        padding: 0 30px 0 30px;
+    }
+    /*your money safe and secure*/
+    .yourmain{
+        height: 450px;
+        box-shadow: 1px 1px 10px #7759e3;
+    }
+    .moneyimg img{
+        height: 450px;
+        border-top-left-radius:40px;
+        border-bottom-left-radius:40px;
+    }
+    .moneytext{
+        padding: 30px;
+    }
+    .moneytext img{
+        width: 35%;
+    }
+    .securelogo{
+        text-align: center;
+    }
+    .moneytext h1{
+        font-size: 31px;
+    }
+    .moneytext p{
+        font-size: 18px;
+        text-align: justify;
+        padding: 20px;
+    }.pcilogo img{
+        padding: 10px 0 0 30px;
+    }
+    /*overall sales*/
+    .saletext{
+        padding: 20px;
+    }
+    .saletext h1{
+        font-size: 45px;
+    }
+    .saletext p{
+        font-size: 20px;
+    }
+    .saletext h6, h4{
+        font-size: 25px;
+    }
+    .saletext h5{
+        font-size: 25px;
+    }
+    /*trusted by over*/
+    .trustedbg{
+        height:600px;
+        padding: 60px;
+        text-align: start;
+    }
+    
+    .trustedbg p, h2, h3{
+        font-size: 20px;
+        text-align: start;
+    }
+    .trustedbg .trustcol{
+        margin-bottom: 20px;
+    }
+    /*footer*/
+    footer .flogo{
+        display: none;       
+    }   
+    footer ul{
+        padding-bottom: 20px;
+    }
+    footer button{
+        margin-bottom: 30px;
+    }
+    footer .sisa{
+        display: none;
+    }
+    footer .socialmedia{
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    nav .nav-item {
+        font-size: 15px;
+        padding: 0px;
+    }
+    .cardb{
+        width: 500px;
+        padding-bottom: 30px;
+    }
+    .display768c{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*watch all videos*/
+    .watchall p{
+        padding: 0 65px 0 65px;
+    }
+    /*your money safe and secure*/
+    .yourmain{
+        height: 450px;
+        box-shadow: 1px 1px 10px #7759e3;
+    }
+    .moneyimg img{
+        height: 450px;
+        border-top-left-radius:40px;
+        border-bottom-left-radius:40px;
+    }
+    .moneytext{
+        padding: 30px;
+        text-align: center;
+    }
+    .moneytext img{
+        width: 25%;
+    }
+    .securelogo{
+        text-align: center;
+    }
+    .moneytext h1{
+        font-size: 31px;
+        padding-left:20px ;
+    }
+   .pcilogo img{
+        padding: 10px 0 0 30px;
+    }   
+     /*overall sales*/
+    .saletext{
+        padding: 10px;
+    }
+    .saletext h1{
+        font-size: 45px;
+    }
+    .saletext p{
+        font-size: 20px;
+    }
+    .saletext h6, h4{
+        font-size: 25px;
+    }
+    .saletext h5{
+        font-size: 25px;
+    }
+    /*trusted by over*/
+    .trustedbg{
+        height:600px;
+        padding: 60px;
+        text-align: start;
+    }
+    
+    .trustedbg p, h2, h3{
+        font-size: 20px;
+        text-align: start;
+    }
+    .trustedbg .trustcol{
+        margin-bottom: 20px;
+    } 
+       /*footer*/
+    footer .flogo{
+        display: none;       
+    }   
+    footer ul{
+        padding-bottom: 20px;
+    }
+    footer button{
+        margin-bottom: 30px;
+    }
+    footer .sisa{
+        display: none;
+    }
+    footer .socialmedia{
+        padding-bottom: 10px;
+    }
+    
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+    .cards i{
+        padding-left: 50px;
+    }
+    .yourmain{
+        height: auto;
+        box-shadow: 1px 1px 10px #7759e3;
+    }
+    .moneyimg img{
+        height: auto;
+        border-top-left-radius:40px;
+        border-bottom-left-radius:40px;
+    }
+    .moneytext{
+        padding: 30px;
+        text-align: center;
+    }
+    .moneytext img{
+        width: 25%;
+    }
+    .securelogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .securelogo img{
+        width: 40%;
+    }
+    .moneytext h1{
+        font-size: 31px;
+        padding-left:20px;
+    }
+   .pcilogo img{
+        padding: 10px 0 0 30px;
+    }
+    /*saletext*/
+    .saletext{
+        padding: 30px;
+    }
+    .sales img{
+        width: 100%;
+    }
+    .saletext h1{
+        font-size: 35px;
+    }
+    .saletext p{
+        font-size:15px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .saletext h6, h4{
+        font-size: 20px;
+    }
+    .saletext h5{
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1201px) {
+    .yourmain{
+        height: auto;
+        box-shadow: 1px 1px 10px #7759e3;
+    }
+    .moneyimg img{
+        height: auto;
+        border-top-left-radius:40px;
+        border-bottom-left-radius:40px;
+    }
+    .moneytext{
+        padding: 60px 30px 30px 30px;
+    }
+    .moneytext img{
+        width: 25%;
+    }
+    .securelogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .securelogo img{
+        width: 40%;
+    }
+    .moneytext h1{
+        font-size: 45px;
+        padding-left:20px ;
+    }
+   .pcilogo img{
+        padding: 10px 0 0 30px;
+    }
+}
